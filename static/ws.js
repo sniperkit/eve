@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 window.onload = function() {
   var bots = document.getElementsByClassName("bot");
   var conn;

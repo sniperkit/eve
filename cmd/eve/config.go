@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
-import "flag"
+import (
+	"flag"
+)
 
 // Config holds information to configure the web server
 type Config struct {

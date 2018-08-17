@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package db
 
-import "errors"
+import (
+	"errors"
+)
 
 // UserError are errors that are shown to the error
 type UserError string

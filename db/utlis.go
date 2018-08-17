@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package db
 
 import (
@@ -8,7 +13,6 @@ import (
 
 // Year is the duraction of one year in nano seconds
 const Year time.Duration = time.Hour * 24 * 365
-
 
 func randomBirthDate(minAge, maxAge int) time.Time {
 	nowYear := time.Now().Year()

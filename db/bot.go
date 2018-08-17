@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package db
 
 import (
@@ -45,25 +50,25 @@ type Bot struct {
 	// Pattern is the recognized pattern id in the last message
 	Pattern *int
 
-	Birthdate     time.Time
+	Birthdate time.Time
 
 	// FavoriteColor is the primary key of the bots favorite color
 	FavoriteColor int
-	
+
 	// FatherName is the primary key of the bots fathers name
-	FatherName    int
+	FatherName int
 
 	// FatherAge is the bots fathers age in years
-	FatherAge     int
+	FatherAge int
 
 	// MotherName is the primary key of the bots mothers name
-	MotherName    int
+	MotherName int
 
 	// MotherAge is the bots mothers age in years
-	MotherAge     int
-	
+	MotherAge int
+
 	// CreationDate is the point in time when the bot was created by a user
-	CreationDate  time.Time
+	CreationDate time.Time
 }
 
 // Create creates a bot entry in the database
